@@ -15,6 +15,7 @@
 
 int main()
 {
+	read_test_SUCCESSFUL_IMPLEMENTATION();
 	init_tests();
 return 0;
 }

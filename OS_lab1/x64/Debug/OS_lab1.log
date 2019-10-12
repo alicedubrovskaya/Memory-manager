@@ -1,4 +1,3 @@
-﻿  OSlab1.c
-  all_tests.c
-  Создание кода...
+﻿  read.c
+d:\уник\3 к\rep\memory-manager\os_lab1\read.c(19): warning C4013: strlen: нет определения; предполагается "extern" с возвратом типа "int"
   OS_lab1.vcxproj -> D:\уник\3 к\rep\Memory-manager\x64\Debug\OS_lab1.exe

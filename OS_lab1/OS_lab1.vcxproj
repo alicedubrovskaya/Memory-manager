@@ -153,6 +153,7 @@
     <ClInclude Include="init_tests.h" />
     <ClInclude Include="malloc_tests.h" />
     <ClInclude Include="mmemory.h" />
+    <ClInclude Include="read_tests.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="all_tests.h" />
@@ -163,6 +164,7 @@
     <ClCompile Include="malloc_tests.c" />
     <ClCompile Include="mmemory.c" />
     <ClCompile Include="OSlab1.c" />
+    <ClCompile Include="read.c" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

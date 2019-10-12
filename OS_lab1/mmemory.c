@@ -104,12 +104,12 @@ int error_checking(VA ptr, void* pBuffer, size_t szBuffer)
 
 	for (int i = 0; i < block_quantity; i++)
 	{
-		if (ptr >= memory[i].ptr && ptr < memory[i].ptr + memory[i].szBlock)
+		if (ptr >= memory[i].ptr && ptr < memory[i].ptr + memory[i].szBlock && !memory[i].is_free)
 		{
 			if (memory[i].ptr + memory[i].szBlock - ptr<szBuffer)
 				return OUT_OF_BOUNDS_ERROR;
 
-			if (memory[i].is_free)
+			//if (memory[i].is_free)
 				is_find = true;
 		}
 	}
