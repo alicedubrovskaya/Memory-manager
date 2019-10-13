@@ -13,9 +13,8 @@
 #include "all_tests.h"
 
 
-int main()
+int main() //освобождение памяти
 {
-	read_test_SUCCESSFUL_IMPLEMENTATION();
 	init_tests();
 return 0;
 }
