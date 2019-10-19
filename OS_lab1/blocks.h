@@ -9,6 +9,7 @@
 #define SUCCESSFUL_IMPLEMENTATION 0;
 
 
+
 typedef char* VA;
 
 struct block {

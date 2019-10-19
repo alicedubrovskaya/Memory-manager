@@ -3,7 +3,7 @@
 #include "mmemory.h"
 #include "read_tests.h"
 #include <assert.h>
-
+#include <malloc.h>
 void read_test_INCORRECT_PARAMETERS_ERROR1()
 {
 	VA pointer1=NULL;
@@ -153,13 +153,13 @@ void read_test_SUCCESSFUL_IMPLEMENTATION2()
 
 void read_all_tests()
 {
-	read_test_INCORRECT_PARAMETERS_ERROR1;
-	read_test_INCORRECT_PARAMETERS_ERROR2;
-	read_test_INCORRECT_PARAMETERS_ERROR3;
-	read_test_INCORRECT_PARAMETERS_ERROR4;
-	read_test_INCORRECT_PARAMETERS_ERROR5;
-	read_test_OUT_OF_BOUNDS_ERROR;
-	read_test_SUCCESSFUL_IMPLEMENTATION1;
-	read_test_SUCCESSFUL_IMPLEMENTATION2;
-	read_test_UNKNOWN_ERROR;
+	read_test_INCORRECT_PARAMETERS_ERROR1();
+	read_test_INCORRECT_PARAMETERS_ERROR2();
+	read_test_INCORRECT_PARAMETERS_ERROR3();
+	read_test_INCORRECT_PARAMETERS_ERROR4();
+	read_test_INCORRECT_PARAMETERS_ERROR5();
+	read_test_OUT_OF_BOUNDS_ERROR();
+	read_test_SUCCESSFUL_IMPLEMENTATION1();
+	read_test_SUCCESSFUL_IMPLEMENTATION2();
+	read_test_UNKNOWN_ERROR();
 }

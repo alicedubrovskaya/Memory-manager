@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+#include <malloc.h>
 
 void unit_blocks(int i) //когда объединяем два блока памяти в один, смещение происходит
 {
