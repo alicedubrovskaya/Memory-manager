@@ -176,6 +176,8 @@ int _init(int n, int szPage) //Инициализация модели менеджера памяти
 
 
 	first_pointer = (VA)malloc(all_memory); // выделяем память для первого блока
+	
+	memset(first_pointer, '0', all_memory);
 	if (first_pointer == NULL) return UNKNOWN_ERROR; //ошибка, значит память не выделилась
 
 
